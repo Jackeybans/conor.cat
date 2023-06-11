@@ -9,7 +9,7 @@ const xhr = new XMLHttpRequest();
 
 const lastfm = {
   url: 'https://ws.audioscrobbler.com/2.0/',
-  user: 'reid',
+  user: 'pg',
   apiKey: '1f633977acf0e2d0630ec11dbc350d3e',
   recent: 'user.getrecenttracks',
   top: 'user.gettopartists',
