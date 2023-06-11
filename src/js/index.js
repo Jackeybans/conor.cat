@@ -3,8 +3,8 @@ const trackDisplay = document.querySelector('#track');
 const albumDisplay = document.querySelector('#album');
 const lastDisplay = document.querySelector('#last');
 
-const host = window.location.host.includes('reid') ? window.location.host : 'reid.cat';
-const mail = ['hi', String.fromCharCode(64), host.replace('www.', '')].join('');
+const host = window.location.host.includes('conor') ? window.location.host : 'conor.cat';
+const mail = ['me', String.fromCharCode(64), host.replace('www.', '')].join('');
 const xhr = new XMLHttpRequest();
 
 const lastfm = {
